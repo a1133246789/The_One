@@ -20,7 +20,7 @@
            		<h1 style="text-align: center"><?php echo $msg;?></h1>
                 <p style="text-align: center">
                     <a href="javascript:<?php echo $this->url?>;">
-                        <span id="time">3</span>s之后跳转......
+                        <span id="time">5</span>s之后跳转......
                     </a>
                 </p>
            		<p style="text-align: center">
@@ -40,7 +40,7 @@
             //点是炸弹，三秒之后跳转
             setTimeout(function(){
                 <?php echo $this->url?>
-            },3000);
+            },6000);
         </script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+    "name": "a1133246789/the_one",
+    "description": "this_is_one",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ts",
+            "email": "398831520@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\"
+        }
+    }
+}
